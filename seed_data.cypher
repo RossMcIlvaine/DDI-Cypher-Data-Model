@@ -1,7 +1,7 @@
 // =============================================================
 //  DDI Graph Database — Seed Data
 //  Target: Neo4j AuraDB
-//  Run AFTER 01_schema.cypher
+//  Run AFTER schema.cypher to create drug relationships
 // =============================================================
 
 // ---------------------------------------------------------------
