@@ -56,7 +56,7 @@ CREATE FULLTEXT INDEX mechanism_fulltext IF NOT EXISTS
 
 // ---------------------------------------------------------------
 // 3. NODE LABELS & PROPERTY CONTRACTS  (documentation only)
-//    Neo4j is schema-optional; these comments describe the model
+//    These comments describe the model
 // ---------------------------------------------------------------
 //
 //  (:Drug)
