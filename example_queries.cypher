@@ -1,7 +1,6 @@
 // =============================================================
 //  DDI Graph Database — Example Queries
 //  Target: Neo4j AuraDB
-//  Run AFTER 01_schema.cypher and 02_seed_data.cypher
 // =============================================================
 
 
@@ -9,7 +8,7 @@
 // Q1. BASIC LOOKUP — Is there an interaction between two specific drugs?
 //     Use case: Pharmacist checks a two-drug combo at dispensing
 // ---------------------------------------------------------------
-MATCH (a:Drug {name: 'Warfarin'})-[:INTERACTS_WITH]->(b:Drug {name: 'Ibuprofen'})
+MATCH (a:Drug {name: 'Warfarin'})-[i:INTERACTS_WITH]->(b:Drug {name: 'Ibuprofen'})
 RETURN
   a.name        AS drug_a,
   b.name        AS drug_b,
