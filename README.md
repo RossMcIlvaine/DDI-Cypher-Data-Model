@@ -2,5 +2,5 @@
 Building data model for capstone DDI graph database
 
 # Neo4J Instructions
-1. Run schema.cypher to establish database schema.
-2. Run seed_data.cypher to populate the database. Further data files can be run to add additional data.
+1. Run the schema files first to establish database schema.
+2. Run seed_drugs.cypher and seed_diagnoses.cypher to populate the database with drugs and diagnoses data, respectively.
